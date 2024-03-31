@@ -18,9 +18,3 @@
 	<input type="text" bind:value={$form.label}>
 	<button type="submit">Save</button>
 </form>
-
-<hr>
-
-<form action="?/create" method="post">
-	<button type="submit">Add</button>
-</form>
