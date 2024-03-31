@@ -6,6 +6,7 @@ pnpm dev
 ## Steps to reproduce
 
 Change My label to My label 1
+
 Click Save
 
 ## Expected behavior
