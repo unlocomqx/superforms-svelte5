@@ -15,22 +15,7 @@
 </script>
 
 <form action="?/save" method="post" use:enhance>
-	<table>
-		<thead>
-		<tr>
-			<th>Label</th>
-		</tr>
-		</thead>
-		<tbody>
-		{#each $form.options as option, index (option.id)}
-			<tr>
-				<td>
-					<input name="label" type="text" bind:value="{$form.options[index].label}">
-				</td>
-			</tr>
-		{/each}
-		</tbody>
-	</table>
+	<input type="text" bind:value={$form.label}>
 	<button type="submit">Save</button>
 </form>
 
